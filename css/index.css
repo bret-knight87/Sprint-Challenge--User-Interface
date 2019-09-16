@@ -214,3 +214,30 @@ footer nav a {
 .bottom-about {
     margin: 25px;
 }
+
+.contact-img {
+    height: 150px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    margin-bottom: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: dodgerblue;
+}
+
+.thank-you {
+    text-align: center;
+    margin: 50px;
+}
+
+.thanks {
+    font-size: 25px;
+}
