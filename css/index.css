@@ -177,6 +177,10 @@ footer nav a {
     text-decoration: none;
 }
 
+.about-header {
+    margin: 25px;
+}
+
 .main-content {
     /* border: 2px solid black; */
     margin: 40px 0px;
@@ -205,4 +209,8 @@ footer nav a {
 	margin: 25px 25px 25px 0px;
 	width: 33%;
 	border-radius: 10px;
+}
+
+.bottom-about {
+    margin: 25px;
 }
