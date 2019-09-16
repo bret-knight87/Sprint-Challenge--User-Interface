@@ -42,6 +42,8 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -69,6 +71,35 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px 25px 0px;
+}
+
+nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-bar nav a:link {
+    color: black;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+.nav-bar nav a:visited {
+    color: black;
+    font-weight: bold;
+	text-decoration: none;
+}
+
+.home-img {
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -112,6 +143,7 @@ p {
     justify-content: center;
 }
 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +175,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-header {
+    margin: 25px;
+}
+
+.main-content {
+    /* border: 2px solid black; */
+    margin: 40px 0px;
+  	display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.description {
+    /* border: 1px solid black; */
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	flex-direction: column;
+	/* width: 600px; */
+    margin: 10px;
+    /* padding: 20px; */
+    border-bottom: 1px dashed black;
+}
+
+.learn {
+    border: 2px solid black;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	margin: 25px 25px 25px 0px;
+	width: 33%;
+	border-radius: 10px;
+}
+
+.bottom-about {
+    margin: 25px;
+}
+
+.contact-img {
+    height: 150px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    margin-bottom: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: dodgerblue;
+}
+
+.thank-you {
+    text-align: center;
+    margin: 50px;
+}
+
+.thanks {
+    font-size: 25px;
 }
